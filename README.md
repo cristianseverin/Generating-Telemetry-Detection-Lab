@@ -19,6 +19,7 @@ This Lab project aimed to establish a controlled environment for simulating and 
 - msfvenom
 - Kali Linux
 - Windows
+- VM
 
 ## Steps
 First, I made sure to make note of the Linux machine’s IP, as well as the Windows machine’s IP.
