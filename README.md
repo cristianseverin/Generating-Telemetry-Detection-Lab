@@ -94,6 +94,15 @@ Ref: 9
 
 <img width="1083" height="606" alt="image" src="https://github.com/user-attachments/assets/3e122cb7-8577-44ae-baf1-1b43faece3f5" />
 
+Because sysmon isn't parsed automatically, I downloaded the "Splunk add-on for Sysmon" as shown in Ref 10.
+
+Ref: 10
+
+<img width="1377" height="702" alt="image" src="https://github.com/user-attachments/assets/183ef668-5f06-4f0b-90cc-98d2e49b279e" />
+
+
+
+
 
 
 
