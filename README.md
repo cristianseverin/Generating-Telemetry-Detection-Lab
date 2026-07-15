@@ -119,7 +119,7 @@ Then scrolling down again I found the process, which was "C:\Windows\system32\cm
 Then I scrolled down further and found the Process ID of 8308.
 These 3 steps are shown in Ref 13
 
-Ref 13:
+Ref: 13
 
 <img width="854" height="545" alt="image" src="https://github.com/user-attachments/assets/a733299c-31e9-4520-9c00-eefe312af5a6" />
 
@@ -127,6 +127,10 @@ Ref 13:
 
 <img width="950" height="390" alt="image" src="https://github.com/user-attachments/assets/f6b41794-4338-4e43-8f3c-b5b2fd9f8285" />
 
+Then I used the process_guid to search for what the command prompt had done. This is shown in Ref 14
 
+Ref: 14
 
+<img width="1364" height="480" alt="image" src="https://github.com/user-attachments/assets/dbbc778f-1a62-489f-92a1-6adcf1c370b4" />
 
+As we can see in Ref 14, the ParentImage had spawned cmd.exe, which then had ran the commands "net user", "local group", and "ipconfig".
