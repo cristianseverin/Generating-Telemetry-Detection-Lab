@@ -99,4 +99,34 @@ Ref: 10
 
 <img width="945" height="567" alt="image" src="https://github.com/user-attachments/assets/f3837275-075a-4be9-8eef-5a44908689a1" />
 
+Going to my Windows machine, I queried the Kali IP address and saw that it only targeted one destination port, which was 3389, as shown in Ref 11.
+
+Ref: 11
+
+<img width="1373" height="769" alt="image" src="https://github.com/user-attachments/assets/1c128fb3-9610-4006-bffe-c98cd282070a" />
+
+If I was analyzing this as a SOC analyst, this would be a good question to ask: "Should this machine be attempting to connect to my RDP Port?", or "What machine is this, who dows it belong to?"
+
+After this, I searched the malware that I used as shown in Ref 12
+
+Ref: 12
+
+<img width="1356" height="766" alt="image" src="https://github.com/user-attachments/assets/a5015952-eda1-438f-90b9-73ec20146ade" />
+
+I observed that there have been seven event codes that have been generated. 
+I opened the first event, and it showed that the ParentImage was Resume.pdf.exe, which was the corresponding file. 
+Then scrolling down again I found the process, which was "C:\Windows\system32\cmd.exe"
+Then I scrolled down further and found the Process ID of 8308.
+These 3 steps are shown in Ref 13
+
+Ref 13:
+
+<img width="854" height="545" alt="image" src="https://github.com/user-attachments/assets/a733299c-31e9-4520-9c00-eefe312af5a6" />
+
+<img width="911" height="492" alt="image" src="https://github.com/user-attachments/assets/91cfd4a3-e728-4dc7-ab4b-fdd069b29cfe" />
+
+<img width="950" height="390" alt="image" src="https://github.com/user-attachments/assets/f6b41794-4338-4e43-8f3c-b5b2fd9f8285" />
+
+
+
 
